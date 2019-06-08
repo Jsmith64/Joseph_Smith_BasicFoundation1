@@ -1,0 +1,202 @@
+<html>
+    <body>
+        <script type="text/javascript">
+		
+       /*console.log("Code: 1 ");
+			function a(){
+				var arr = []
+				for(i=1; i<=255; i++){
+					arr.push(i);
+				}
+				return arr;
+			}
+			var b = a();
+			console.log(b);*/
+
+		/*console.log("Code: 2 ");
+			function a(){
+				var sum = 0;
+				for(i=0;i<=1000;i+= 2){
+					sum += i;
+				}
+				return sum;
+			}
+			var b = a();
+			console.log(b);	*/
+
+		/*console.log("Code: 3 ");
+			function a(){
+				var sum = 0;
+				for(i=1;i<=5000;i+= 2){
+					sum += i;
+				}
+				return sum;
+			}
+			var b = a();
+			console.log(b);*/
+
+		/*console.log("Code: 4 ");
+			var arr1 = [1, 2, 3, 4, 5];
+			function a(x){
+				var sum = 0;
+				for(i=0;i<x.length;i++){
+					sum += x[i];
+				}
+				return sum;
+			}
+			var b = a(arr1);
+			console.log(b);	*/
+			
+		/*console.log("Code: 4 Alternative");
+			var arr2 = [1, 2, 3, 4, 5];
+			function a(x){
+				var sum = x.reduce(function(a,b){return a + b}, 0);
+				return sum;
+			}
+			console.log(a(arr2));*/
+
+		/*console.log("Code: 5 ");
+			var arr3 = [1, 2, 6, 4, 5];
+			function a(x){
+				var max = 0;
+				for(i=0;i<x.length;i++){
+					if(max < x[i]){
+						max = x[i];
+					}
+				}
+				return max;
+			}
+			var b = a(arr3);
+			console.log(b);	*/
+
+		/*console.log("Code: 5 Alternative");
+			var arr = [1, 2, 6, 4, 5];
+			function a(x){
+				var max = Math.max(...arr);
+				return max;
+			}
+			console.log(a(arr));*/
+
+		/*console.log("Code: 6 ");
+			var arr4 = [1, 2, 3, 4, 5];
+			function a(x){
+				var sum = 0;
+				for(i=0;i<x.length;i++){
+					sum += x[i];
+				}
+				return sum/x.length;
+			}
+			var b = a(arr4);
+			console.log(b);*/
+		
+		/*console.log("Code: 6 Alternative");
+				var arr5 = [1, 2, 3, 4, 5];
+				function a(x){
+					var sum = x.reduce(function(a,b){return a + b}, 0);
+					return sum/x.length;
+				}
+				console.log(a(arr5));*/
+
+		/*console.log("Code: 7 ");
+			function a(){
+				var x = [];
+				for(i=1; i<50; i+=2){
+					x.push(i);
+				}
+				return x;
+			}
+			console.log(a());*/
+
+		/*console.log("Code: 8 ");
+			var arr6 = [1, 2, 3, 4, 5];
+			function a(x, y){
+				var sum = 0;
+				for(i=0; i<x.length; i++){
+					if(y>x[i]){
+						sum++;
+					}
+				}
+				return sum;
+			}
+			console.log(a(arr6, 3));	*/	
+
+		/*console.log("Code: 9 ");
+			var arr7 = [1, 2, 3, 4, 5];
+			function a(x){
+				for(i=0; i<x.length; i++){
+					x[i] *= x[i];
+				}
+				return x;
+			}
+			console.log(a(arr7));*/
+
+		/*console.log("Code: 10 ");
+			var arr8 = [-1, 2, -3, 4, -5];
+			function a(x){
+				for(i=0; i<x.length; i++){
+					if(x[i]<0){
+						x[i] = 0;
+					}
+				}
+				return x;
+			}
+			console.log(a(arr8));*/
+
+		/*console.log("Code: 11 ");	
+			var arr9 = [-1, 2, -3, 4, -5];
+			function a(x){
+				var max = Number.MIN_VALUE;
+				var min = Number.MAX_VALUE;
+				var sum = 0;
+				var y = [];
+				for(i=0; i<x.length; i++){
+					if(max < x[i]){
+						max = x[i];			
+					}
+					if(min > x[i]){
+						min = x[i];
+					}
+					sum += x[i]
+				}
+				y.push(max, min, sum/x.length);
+				return y;
+			}
+			console.log(a(arr9));*/
+
+		/*console.log("Code: 6 Alternative");
+			var arr10 = [-1, 2, -3, 4, -5];
+			function a(x){
+				var y = [];
+				var max = Math.max(...x);
+				var min = Math.min(...x);
+				var sum = x.reduce(function(a,b){return a + b}, 0);
+				y.push(max, min, sum/x.length);
+			}
+			console.log(a(arr10));*/
+
+		/*console.log("Code: 12 ");
+			var arr11 = [-1, 2, -3, 4, -5];
+			function a(x){
+				var b = x[0];
+				x[0] = x[x.length - 1];
+				x[x.length - 1] = b;
+				return x;
+			}
+			console.log(a(arr11));*/
+
+		/*console.log("Code: 13 ");
+			var arr12 = [-1, 2, -3, 4, -5];
+			function a(x){
+				for(i=0; i<x.length; i++){
+					if(x[i]<0){
+						x[i] = "Dojo";
+					}
+				}
+				return x;
+			}
+			console.log(a(arr12));*/
+
+        </script>
+    </body>
+    </html>
+    
